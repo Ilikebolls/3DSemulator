@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="CopyDescriptorSet" FullName="Vulkan.CopyDescriptorSet">
+  <TypeSignature Language="C#" Value="public class CopyDescriptorSet : Vulkan.MarshalledObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CopyDescriptorSet extends Vulkan.MarshalledObject" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Vulkan.MarshalledObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Structure specifying a copy descriptor set operation</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CopyDescriptorSet ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DescriptorCount">
+      <MemberSignature Language="C#" Value="public uint DescriptorCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 DescriptorCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the number of descriptors to copy from the source to destination. If pname:descriptorCount is greater than the number of remaining array elements in the source or destination binding, those affect consecutive bindings in a manner similar to slink:VkWriteDescriptorSet above.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DstArrayElement">
+      <MemberSignature Language="C#" Value="public uint DstArrayElement { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 DstArrayElement" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DstBinding">
+      <MemberSignature Language="C#" Value="public uint DstBinding { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 DstBinding" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be a valid binding within pname:dstSet * The sum of pname:dstArrayElement and pname:descriptorCount must: be less than or equal to the number of array elements in the descriptor set binding specified by pname:dstBinding, and all applicable consecutive bindings, as described by &lt;&lt;descriptorsets-updates-consecutive&gt;&gt; * If pname:srcSet is equal to pname:dstSet, then the source and destination ranges of descriptors must: not overlap, where the ranges may: include array elements from consecutive bindings as described by &lt;&lt;descriptorsets-updates-consecutive&gt;&gt; ****</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DstSet">
+      <MemberSignature Language="C#" Value="public Vulkan.DescriptorSet DstSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.DescriptorSet DstSet" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.DescriptorSet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SrcArrayElement">
+      <MemberSignature Language="C#" Value="public uint SrcArrayElement { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 SrcArrayElement" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SrcBinding">
+      <MemberSignature Language="C#" Value="public uint SrcBinding { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 SrcBinding" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be a valid binding within pname:srcSet * The sum of pname:srcArrayElement and pname:descriptorCount must: be less than or equal to the number of array elements in the descriptor set binding specified by pname:srcBinding, and all applicable consecutive bindings, as described by &lt;&lt;descriptorsets-updates-consecutive&gt;&gt;</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SrcSet">
+      <MemberSignature Language="C#" Value="public Vulkan.DescriptorSet SrcSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.DescriptorSet SrcSet" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.DescriptorSet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

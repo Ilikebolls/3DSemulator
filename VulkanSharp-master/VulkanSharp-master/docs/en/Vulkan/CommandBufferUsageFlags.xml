@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="CommandBufferUsageFlags" FullName="Vulkan.CommandBufferUsageFlags">
+  <TypeSignature Language="C#" Value="public enum CommandBufferUsageFlags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CommandBufferUsageFlags extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Bitmask specifying usage behavior for command buffer</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OneTimeSubmit">
+      <MemberSignature Language="C#" Value="OneTimeSubmit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.CommandBufferUsageFlags OneTimeSubmit = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.CommandBufferUsageFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that each recording of the command buffer will only be submitted once, and the command buffer will be reset and recorded again between each submission.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RenderPassContinue">
+      <MemberSignature Language="C#" Value="RenderPassContinue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.CommandBufferUsageFlags RenderPassContinue = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.CommandBufferUsageFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that a secondary command buffer is considered to be entirely inside a render pass. If this is a primary command buffer, then this bit is ignored.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SimultaneousUse">
+      <MemberSignature Language="C#" Value="SimultaneousUse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.CommandBufferUsageFlags SimultaneousUse = int32(4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.CommandBufferUsageFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>allows the command buffer to be resubmitted to a queue or recorded into a primary command buffer while it is pending execution. * pname:pInheritanceInfo is a pointer to a sname:VkCommandBufferInheritanceInfo structure, which is used if pname:commandBuffer is a secondary command buffer. If this is a primary command buffer, then this value is ignored.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

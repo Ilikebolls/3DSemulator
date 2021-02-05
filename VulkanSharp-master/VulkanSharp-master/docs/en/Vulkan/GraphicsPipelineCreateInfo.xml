@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="GraphicsPipelineCreateInfo" FullName="Vulkan.GraphicsPipelineCreateInfo">
+  <TypeSignature Language="C#" Value="public class GraphicsPipelineCreateInfo : Vulkan.MarshalledObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GraphicsPipelineCreateInfo extends Vulkan.MarshalledObject" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Vulkan.MarshalledObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Structure specifying parameters of a newly created graphics pipeline</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GraphicsPipelineCreateInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BasePipelineHandle">
+      <MemberSignature Language="C#" Value="public Vulkan.Pipeline BasePipelineHandle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.Pipeline BasePipelineHandle" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Pipeline</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a pipeline to derive from.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BasePipelineIndex">
+      <MemberSignature Language="C#" Value="public int BasePipelineIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BasePipelineIndex" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is an index into the pname:pCreateInfos parameter to use as a pipeline to derive from.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorBlendState">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineColorBlendStateCreateInfo ColorBlendState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.PipelineColorBlendStateCreateInfo ColorBlendState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineColorBlendStateCreateInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a pointer to an instance of the slink:VkPipelineColorBlendStateCreateInfo structure, or `NULL` if the pipeline has rasterization disabled or if the subpass of the render pass the pipeline is created against does not use any color attachments.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DepthStencilState">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineDepthStencilStateCreateInfo DepthStencilState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.PipelineDepthStencilStateCreateInfo DepthStencilState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineDepthStencilStateCreateInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a pointer to an instance of the slink:VkPipelineDepthStencilStateCreateInfo structure, or `NULL` if the pipeline has rasterization disabled or if the subpass of the render pass the pipeline is created against does not use a depth/stencil attachment.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public override void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DynamicState">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineDynamicStateCreateInfo DynamicState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.PipelineDynamicStateCreateInfo DynamicState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineDynamicStateCreateInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a pointer to slink:VkPipelineDynamicStateCreateInfo and is used to indicate which properties of the pipeline state object are dynamic and can: be changed independently of the pipeline state. This can: be `NULL`, which means no state in the pipeline is considered dynamic.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flags">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineCreateFlags Flags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.PipelineCreateFlags Flags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineCreateFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a bitmask of elink:VkPipelineCreateFlagBits controlling how the pipeline will be generated, as described below.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InputAssemblyState">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineInputAssemblyStateCreateInfo InputAssemblyState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.PipelineInputAssemblyStateCreateInfo InputAssemblyState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineInputAssemblyStateCreateInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a pointer to an instance of the slink:VkPipelineInputAssemblyStateCreateInfo structure which determines input assembly behavior, as described in &lt;&lt;drawing, Drawing Commands&gt;&gt;.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Layout">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineLayout Layout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.PipelineLayout Layout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineLayout</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the description of binding locations used by both the pipeline and descriptor sets used with the pipeline.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultisampleState">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineMultisampleStateCreateInfo MultisampleState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.PipelineMultisampleStateCreateInfo MultisampleState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineMultisampleStateCreateInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a pointer to an instance of the slink:VkPipelineMultisampleStateCreateInfo, or `NULL` if the pipeline has rasterization disabled.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RasterizationState">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineRasterizationStateCreateInfo RasterizationState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.PipelineRasterizationStateCreateInfo RasterizationState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineRasterizationStateCreateInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a pointer to an instance of the slink:VkPipelineRasterizationStateCreateInfo structure.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RenderPass">
+      <MemberSignature Language="C#" Value="public Vulkan.RenderPass RenderPass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.RenderPass RenderPass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.RenderPass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a handle to a render pass object describing the environment in which the pipeline will be used; the pipeline must: only be used with an instance of any render pass compatible with the one provided. See &lt;&lt;renderpass-compatibility,Render Pass Compatibility&gt;&gt; for more information.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StageCount">
+      <MemberSignature Language="C#" Value="public uint StageCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 StageCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the number of entries in the pname:pStages array.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stages">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineShaderStageCreateInfo[] Stages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.PipelineShaderStageCreateInfo[] Stages" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineShaderStageCreateInfo[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is an array of size pname:stageCount structures of type slink:VkPipelineShaderStageCreateInfo describing the set of the shader stages to be included in the graphics pipeline.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subpass">
+      <MemberSignature Language="C#" Value="public uint Subpass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 Subpass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the index of the subpass in the render pass where this pipeline will be used.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TessellationState">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineTessellationStateCreateInfo TessellationState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.PipelineTessellationStateCreateInfo TessellationState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineTessellationStateCreateInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a pointer to an instance of the slink:VkPipelineTessellationStateCreateInfo structure, or `NULL` if the pipeline does not include a tessellation control shader stage and tessellation evaluation shader stage.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VertexInputState">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineVertexInputStateCreateInfo VertexInputState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.PipelineVertexInputStateCreateInfo VertexInputState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineVertexInputStateCreateInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a pointer to an instance of the slink:VkPipelineVertexInputStateCreateInfo structure.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewportState">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineViewportStateCreateInfo ViewportState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.PipelineViewportStateCreateInfo ViewportState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineViewportStateCreateInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a pointer to an instance of the slink:VkPipelineViewportStateCreateInfo structure, or `NULL` if the pipeline has rasterization disabled.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualDispose">
+      <MemberSignature Language="C#" Value="public override void VirtualDispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void VirtualDispose() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

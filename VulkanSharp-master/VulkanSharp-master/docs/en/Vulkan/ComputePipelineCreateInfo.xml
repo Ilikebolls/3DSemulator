@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="ComputePipelineCreateInfo" FullName="Vulkan.ComputePipelineCreateInfo">
+  <TypeSignature Language="C#" Value="public class ComputePipelineCreateInfo : Vulkan.MarshalledObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ComputePipelineCreateInfo extends Vulkan.MarshalledObject" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Vulkan.MarshalledObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Structure specifying parameters of a newly created compute pipeline</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ComputePipelineCreateInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BasePipelineHandle">
+      <MemberSignature Language="C#" Value="public Vulkan.Pipeline BasePipelineHandle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.Pipeline BasePipelineHandle" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Pipeline</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a pipeline to derive from</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BasePipelineIndex">
+      <MemberSignature Language="C#" Value="public int BasePipelineIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BasePipelineIndex" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is an index into the pname:pCreateInfos parameter to use as a pipeline to derive from</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flags">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineCreateFlags Flags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.PipelineCreateFlags Flags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineCreateFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>provides options for pipeline creation, and is of type elink:VkPipelineCreateFlagBits.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Layout">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineLayout Layout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.PipelineLayout Layout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineLayout</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be &lt;&lt;descriptorsets-pipelinelayout-consistency,consistent&gt;&gt; with the layout of the compute shader specified in pname:stage ****</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stage">
+      <MemberSignature Language="C#" Value="public Vulkan.PipelineShaderStageCreateInfo Stage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.PipelineShaderStageCreateInfo Stage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineShaderStageCreateInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a slink:VkPipelineShaderStageCreateInfo describing the compute shader.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

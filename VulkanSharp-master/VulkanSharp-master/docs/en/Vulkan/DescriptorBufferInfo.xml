@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="DescriptorBufferInfo" FullName="Vulkan.DescriptorBufferInfo">
+  <TypeSignature Language="C#" Value="public class DescriptorBufferInfo : Vulkan.MarshalledObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DescriptorBufferInfo extends Vulkan.MarshalledObject" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Vulkan.MarshalledObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Structure specifying descriptor buffer info</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DescriptorBufferInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Buffer">
+      <MemberSignature Language="C#" Value="public Vulkan.Buffer Buffer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.Buffer Buffer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Buffer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the buffer resource.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Offset">
+      <MemberSignature Language="C#" Value="public Vulkan.DeviceSize Offset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.DeviceSize Offset" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.DeviceSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be less than the size of pname:buffer * If pname:range is not equal to ename:VK_WHOLE_SIZE, pname:range must: be greater than `0` * If pname:range is not equal to ename:VK_WHOLE_SIZE, pname:range must: be less than or equal to the size of pname:buffer minus pname:offset ****</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Range">
+      <MemberSignature Language="C#" Value="public Vulkan.DeviceSize Range { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.DeviceSize Range" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.DeviceSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the size in bytes that is used for this descriptor update, or ename:VK_WHOLE_SIZE to use the range from pname:offset to the end of the buffer. + -- [NOTE] .Note ==== When using ename:VK_WHOLE_SIZE, the effective range must: not be larger than the maximum range for the descriptor type (&lt;&lt;features-limits-maxUniformBufferRange, maxUniformBufferRange&gt;&gt; or &lt;&lt;features-limits-maxStorageBufferRange, maxStorageBufferRange&gt;&gt;). This means that ename:VK_WHOLE_SIZE is not typically useful in the common case where uniform buffer descriptors are suballocated from a buffer that is much larger than pname:maxUniformBufferRange. ==== -- + For ename:VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC and ename:VK_DESCRIPTOR_TYPE_STORAGE_BUFFER_DYNAMIC descriptor types, pname:offset is the base offset from which the dynamic offset is applied and pname:range is the static size used for all dynamic offsets.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="StencilFaceFlags" FullName="Vulkan.StencilFaceFlags">
+  <TypeSignature Language="C#" Value="public enum StencilFaceFlags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StencilFaceFlags extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Bitmask specifying sets of stencil state for which to update the compare mask</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Back">
+      <MemberSignature Language="C#" Value="Back" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.StencilFaceFlags Back = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.StencilFaceFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that only the back set of stencil state is updated.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Front">
+      <MemberSignature Language="C#" Value="Front" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.StencilFaceFlags Front = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.StencilFaceFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that only the front set of stencil state is updated.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StencilFrontAndBack">
+      <MemberSignature Language="C#" Value="StencilFrontAndBack" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.StencilFaceFlags StencilFrontAndBack = int32(3)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.StencilFaceFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the combination of ename:VK_STENCIL_FACE_FRONT_BIT and ename:VK_STENCIL_FACE_BACK_BIT and indicates that both sets of stencil state are updated. * pname:compareMask is the new value to use as the stencil compare mask.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

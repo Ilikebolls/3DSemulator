@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="ClearAttachment" FullName="Vulkan.ClearAttachment">
+  <TypeSignature Language="C#" Value="public class ClearAttachment : Vulkan.MarshalledObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClearAttachment extends Vulkan.MarshalledObject" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Vulkan.MarshalledObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Structure specifying a clear attachment</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClearAttachment ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AspectMask">
+      <MemberSignature Language="C#" Value="public Vulkan.ImageAspectFlags AspectMask { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.ImageAspectFlags AspectMask" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageAspectFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: not include ename:VK_IMAGE_ASPECT_METADATA_BIT ****</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearValue">
+      <MemberSignature Language="C#" Value="public Vulkan.ClearValue ClearValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.ClearValue ClearValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ClearValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the color or depth/stencil value to clear the attachment to, as described in &lt;&lt;clears-values,Clear Values&gt;&gt; below.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorAttachment">
+      <MemberSignature Language="C#" Value="public uint ColorAttachment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 ColorAttachment" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is only meaningful if ename:VK_IMAGE_ASPECT_COLOR_BIT is set in pname:aspectMask, in which case it is an index to the pname:pColorAttachments array in the slink:VkSubpassDescription structure of the current subpass which selects the color attachment to clear. If pname:colorAttachment is ename:VK_ATTACHMENT_UNUSED then the clear has no effect.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

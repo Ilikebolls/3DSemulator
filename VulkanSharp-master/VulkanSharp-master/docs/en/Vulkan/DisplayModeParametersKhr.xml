@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="DisplayModeParametersKhr" FullName="Vulkan.DisplayModeParametersKhr">
+  <TypeSignature Language="C#" Value="public struct DisplayModeParametersKhr" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit DisplayModeParametersKhr extends System.ValueType" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>- Structure describing display parameters associated with a display mode</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DisplayModeParametersKhr ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshRate">
+      <MemberSignature Language="C#" Value="public uint RefreshRate;" />
+      <MemberSignature Language="ILAsm" Value=".field public unsigned int32 RefreshRate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a code:uint32_t that is the number of times the display is refreshed each second multiplied by 1000.</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshRate">
+      <MemberSignature Language="C#" Value="public uint RefreshRate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 RefreshRate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a code:uint32_t that is the number of times the display is refreshed each second multiplied by 1000.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisibleRegion">
+      <MemberSignature Language="C#" Value="public Vulkan.Extent2D VisibleRegion;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype Vulkan.Extent2D VisibleRegion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Extent2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the 2D extents of the visible region.</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisibleRegion">
+      <MemberSignature Language="C#" Value="public Vulkan.Extent2D VisibleRegion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.Extent2D VisibleRegion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Extent2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the 2D extents of the visible region.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

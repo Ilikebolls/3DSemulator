@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="DebugReportFlagsExt" FullName="Vulkan.DebugReportFlagsExt">
+  <TypeSignature Language="C#" Value="public enum DebugReportFlagsExt" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DebugReportFlagsExt extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Bitmask specifying events which cause a debug report callback</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Debug">
+      <MemberSignature Language="C#" Value="Debug" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.DebugReportFlagsExt Debug = int32(16)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.DebugReportFlagsExt</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates diagnostic information from the loader and layers.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="Error" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.DebugReportFlagsExt Error = int32(8)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.DebugReportFlagsExt</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates an error that may cause undefined results, including an application crash.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Information">
+      <MemberSignature Language="C#" Value="Information" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.DebugReportFlagsExt Information = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.DebugReportFlagsExt</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates an informational message such as resource details that may be handy when debugging an application.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PerformanceWarning">
+      <MemberSignature Language="C#" Value="PerformanceWarning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.DebugReportFlagsExt PerformanceWarning = int32(4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.DebugReportFlagsExt</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates a potentially non-optimal use of Vulkan. E.g. using flink:vkCmdClearColorImage when a RenderPass load_op would have worked.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Warning">
+      <MemberSignature Language="C#" Value="Warning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.DebugReportFlagsExt Warning = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.DebugReportFlagsExt</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates an unexpected use. E.g. Not destroying objects prior to destroying the containing object or potential inconsistencies between descriptor set layout and the layout in the corresponding shader, etc.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

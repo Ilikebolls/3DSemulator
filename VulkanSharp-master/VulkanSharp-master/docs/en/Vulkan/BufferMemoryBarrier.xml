@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="BufferMemoryBarrier" FullName="Vulkan.BufferMemoryBarrier">
+  <TypeSignature Language="C#" Value="public class BufferMemoryBarrier : Vulkan.MarshalledObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BufferMemoryBarrier extends Vulkan.MarshalledObject" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Vulkan.MarshalledObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Structure specifying the parameters of a buffer memory barrier</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BufferMemoryBarrier ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Buffer">
+      <MemberSignature Language="C#" Value="public Vulkan.Buffer Buffer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.Buffer Buffer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Buffer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a handle to the buffer whose backing memory is affected by the barrier.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DstAccessMask">
+      <MemberSignature Language="C#" Value="public Vulkan.AccessFlags DstAccessMask { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.AccessFlags DstAccessMask" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.AccessFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a bitmask of the classes of memory accesses performed by the second set of commands that will participate in the dependency.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DstQueueFamilyIndex">
+      <MemberSignature Language="C#" Value="public uint DstQueueFamilyIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 DstQueueFamilyIndex" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the queue family that is acquiring ownership of the range of pname:buffer from another queue, or ename:VK_QUEUE_FAMILY_IGNORED if there is no transfer of ownership.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Offset">
+      <MemberSignature Language="C#" Value="public Vulkan.DeviceSize Offset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.DeviceSize Offset" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.DeviceSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be less than the size of pname:buffer * If pname:size is not equal to ename:VK_WHOLE_SIZE, pname:size must: be greater than `0` * If pname:size is not equal to ename:VK_WHOLE_SIZE, pname:size must: be less than or equal to than the size of pname:buffer minus pname:offset * If pname:buffer was created with a sharing mode of ename:VK_SHARING_MODE_CONCURRENT, pname:srcQueueFamilyIndex and pname:dstQueueFamilyIndex must: both be ename:VK_QUEUE_FAMILY_IGNORED * If pname:buffer was created with a sharing mode of ename:VK_SHARING_MODE_EXCLUSIVE, pname:srcQueueFamilyIndex and pname:dstQueueFamilyIndex must: either both be ename:VK_QUEUE_FAMILY_IGNORED, or both be a valid queue family (see &lt;&lt;devsandqueues-queueprops&gt;&gt;) * If pname:buffer was created with a sharing mode of ename:VK_SHARING_MODE_EXCLUSIVE, and pname:srcQueueFamilyIndex and pname:dstQueueFamilyIndex are valid queue families, at least one of them must: be the same as the family of the queue that will execute this barrier ****</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public Vulkan.DeviceSize Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.DeviceSize Size" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.DeviceSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a size in bytes of the affected area of backing memory for pname:buffer, or ename:VK_WHOLE_SIZE to use the range from pname:offset to the end of the buffer.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SrcAccessMask">
+      <MemberSignature Language="C#" Value="public Vulkan.AccessFlags SrcAccessMask { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.AccessFlags SrcAccessMask" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.AccessFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a bitmask of the classes of memory accesses performed by the first set of commands that will participate in the dependency.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SrcQueueFamilyIndex">
+      <MemberSignature Language="C#" Value="public uint SrcQueueFamilyIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 SrcQueueFamilyIndex" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the queue family that is relinquishing ownership of the range of pname:buffer to another queue, or ename:VK_QUEUE_FAMILY_IGNORED if there is no transfer of ownership.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

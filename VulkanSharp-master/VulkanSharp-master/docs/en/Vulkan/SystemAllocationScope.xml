@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="SystemAllocationScope" FullName="Vulkan.SystemAllocationScope">
+  <TypeSignature Language="C#" Value="public enum SystemAllocationScope" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SystemAllocationScope extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Allocation scope</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Cache">
+      <MemberSignature Language="C#" Value="Cache" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.SystemAllocationScope Cache = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.SystemAllocationScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>- The allocation is scoped to the lifetime of a sname:VkPipelineCache object.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Command">
+      <MemberSignature Language="C#" Value="Command" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.SystemAllocationScope Command = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.SystemAllocationScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>- The allocation is scoped to the duration of the Vulkan command.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Device">
+      <MemberSignature Language="C#" Value="Device" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.SystemAllocationScope Device = int32(3)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.SystemAllocationScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>- The allocation is scoped to the lifetime of the Vulkan device.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Instance">
+      <MemberSignature Language="C#" Value="Instance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.SystemAllocationScope Instance = int32(4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.SystemAllocationScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>- The allocation is scoped to the lifetime of the Vulkan instance.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Object">
+      <MemberSignature Language="C#" Value="Object" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.SystemAllocationScope Object = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.SystemAllocationScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>- The allocation is scoped to the lifetime of the Vulkan object that is being created or used.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

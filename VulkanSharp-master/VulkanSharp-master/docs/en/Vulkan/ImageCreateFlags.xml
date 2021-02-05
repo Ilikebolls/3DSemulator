@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="ImageCreateFlags" FullName="Vulkan.ImageCreateFlags">
+  <TypeSignature Language="C#" Value="public enum ImageCreateFlags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ImageCreateFlags extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Bitmask specifying additional parameters of an image</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CubeCompatible">
+      <MemberSignature Language="C#" Value="CubeCompatible" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.ImageCreateFlags CubeCompatible = int32(16)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageCreateFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that the image can: be used to create a sname:VkImageView of type ename:VK_IMAGE_VIEW_TYPE_CUBE or ename:VK_IMAGE_VIEW_TYPE_CUBE_ARRAY.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MutableFormat">
+      <MemberSignature Language="C#" Value="MutableFormat" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.ImageCreateFlags MutableFormat = int32(8)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageCreateFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that the image can: be used to create a sname:VkImageView with a different format from the image.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SparseAliased">
+      <MemberSignature Language="C#" Value="SparseAliased" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.ImageCreateFlags SparseAliased = int32(4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageCreateFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that the image will be backed using sparse memory binding with memory ranges that might also simultaneously be backing another image (or another portion of the same image). Images created with this flag must: also be created with the ename:VK_IMAGE_CREATE_SPARSE_BINDING_BIT flag</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SparseBinding">
+      <MemberSignature Language="C#" Value="SparseBinding" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.ImageCreateFlags SparseBinding = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageCreateFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that the image will be backed using sparse memory binding.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SparseResidency">
+      <MemberSignature Language="C#" Value="SparseResidency" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.ImageCreateFlags SparseResidency = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageCreateFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that the image can: be partially backed using sparse memory binding. Images created with this flag must: also be created with the ename:VK_IMAGE_CREATE_SPARSE_BINDING_BIT flag.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

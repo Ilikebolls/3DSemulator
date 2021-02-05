@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="StencilOp" FullName="Vulkan.StencilOp">
+  <TypeSignature Language="C#" Value="public enum StencilOp" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StencilOp extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Stencil comparison function</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DecrementAndClamp">
+      <MemberSignature Language="C#" Value="DecrementAndClamp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.StencilOp DecrementAndClamp = int32(4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.StencilOp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>decrements the current value and clamps to 0.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DecrementAndWrap">
+      <MemberSignature Language="C#" Value="DecrementAndWrap" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.StencilOp DecrementAndWrap = int32(7)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.StencilOp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>decrements the current value and wraps to the maximum possible value when the value would go below 0.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementAndClamp">
+      <MemberSignature Language="C#" Value="IncrementAndClamp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.StencilOp IncrementAndClamp = int32(3)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.StencilOp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>increments the current value and clamps to the maximum representable unsigned value.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementAndWrap">
+      <MemberSignature Language="C#" Value="IncrementAndWrap" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.StencilOp IncrementAndWrap = int32(6)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.StencilOp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>increments the current value and wraps to 0 when the maximum value would have been exceeded.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invert">
+      <MemberSignature Language="C#" Value="Invert" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.StencilOp Invert = int32(5)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.StencilOp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>bitwise-inverts the current value.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Keep">
+      <MemberSignature Language="C#" Value="Keep" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.StencilOp Keep = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.StencilOp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>keeps the current value.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Replace">
+      <MemberSignature Language="C#" Value="Replace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.StencilOp Replace = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.StencilOp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>sets the value to pname:reference.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Zero">
+      <MemberSignature Language="C#" Value="Zero" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.StencilOp Zero = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.StencilOp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>sets the value to 0.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

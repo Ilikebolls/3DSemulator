@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>VulkanSharp</id>
+    <version>0.1.10</version>
+    <authors>Xamarin Inc</authors>
+    <owners>rodo</owners>
+    <licenseUrl>https://github.com/mono/VulkanSharp/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mono/VulkanSharp</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Open source .NET binding for the Vulkan API</description>
+    <releaseNotes>
+This is the preview release of the VulkanSharp project.
+New in this release:
+ * updated to Vulkan specs 1.0.69
+ * added .NETStandard target
+    </releaseNotes>
+    <copyright>Copyright 2016, 2017 Xamarin Inc</copyright>
+    <tags>Vulkan C# Bindings 3D VulkanSharp Graphics OpenSource MultiPlatform Android Windows</tags>
+    <references>
+      <group targetFramework=".NETStandard1.1">
+	<reference file="Vulkan.dll" />
+      </group>
+      <group targetFramework="portable-net45+win8+MonoAndroid10">
+	<reference file="Vulkan.dll" />
+      </group>
+      <group targetFramework="MonoAndroid10">
+	<reference file="Vulkan.dll" />
+	<reference file="Vulkan.Android.dll" />
+      </group>
+      <group targetFramework="win8">
+	<reference file="Vulkan.dll" />
+	<reference file="Vulkan.Windows.dll" />
+      </group>
+      <group targetFramework="net452">
+	<reference file="Vulkan.dll" />
+	<reference file="Vulkan.Windows.dll" />
+      </group>
+    </references>
+    <dependencies>
+      <group targetFramework=".NETStandard1.1">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+    </dependencies>
+    <!--
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+    -->
+  </metadata>
+  <files>
+    <file src="bin/Debug/Vulkan.dll*" target="lib/portable-net45+win8+MonoAndroid10" />
+
+    <file src="bin/Debug/Vulkan.dll*" target="lib/MonoAndroid10" />
+    <file src="src/Platforms/Android/bin/Debug/Vulkan.Android.dll*" target="lib/MonoAndroid10" />
+
+    <file src="bin/Debug/Vulkan.dll*" target="lib/win8" />
+    <file src="src/Platforms/Windows/bin/Debug/Vulkan.Windows.dll*" target="lib/win8" />
+
+    <file src="bin/Debug/Vulkan.dll*" target="lib/net452" />
+    <file src="src/Platforms/Windows/bin/Debug/Vulkan.Windows.dll*" target="lib/net452" />
+
+    <file src="netstandard/bin/Debug/netstandard1.1/Vulkan.dll*" target="lib/netstandard1.1/" />
+  </files>
+</package>

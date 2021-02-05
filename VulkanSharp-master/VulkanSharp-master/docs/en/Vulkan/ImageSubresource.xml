@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="ImageSubresource" FullName="Vulkan.ImageSubresource">
+  <TypeSignature Language="C#" Value="public struct ImageSubresource" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ImageSubresource extends System.ValueType" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Structure specifying a image subresource</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImageSubresource ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArrayLayer">
+      <MemberSignature Language="C#" Value="public uint ArrayLayer;" />
+      <MemberSignature Language="ILAsm" Value=".field public unsigned int32 ArrayLayer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be less than the pname:arrayLayers specified in slink:VkImageCreateInfo when the image was created ****</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArrayLayer">
+      <MemberSignature Language="C#" Value="public uint ArrayLayer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 ArrayLayer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be less than the pname:arrayLayers specified in slink:VkImageCreateInfo when the image was created ****</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AspectMask">
+      <MemberSignature Language="C#" Value="public Vulkan.ImageAspectFlags AspectMask;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype Vulkan.ImageAspectFlags AspectMask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageAspectFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a elink:VkImageAspectFlags selecting the image _aspect_.</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AspectMask">
+      <MemberSignature Language="C#" Value="public uint AspectMask { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 AspectMask" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a elink:VkImageAspectFlags selecting the image _aspect_.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MipLevel">
+      <MemberSignature Language="C#" Value="public uint MipLevel;" />
+      <MemberSignature Language="ILAsm" Value=".field public unsigned int32 MipLevel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be less than the pname:mipLevels specified in slink:VkImageCreateInfo when the image was created</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MipLevel">
+      <MemberSignature Language="C#" Value="public uint MipLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 MipLevel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be less than the pname:mipLevels specified in slink:VkImageCreateInfo when the image was created</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

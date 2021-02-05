@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="SurfaceCapabilitiesKhr" FullName="Vulkan.SurfaceCapabilitiesKhr">
+  <TypeSignature Language="C#" Value="public struct SurfaceCapabilitiesKhr" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit SurfaceCapabilitiesKhr extends System.ValueType" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>- Structure describing capabilities of a surface</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SurfaceCapabilitiesKhr ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentExtent">
+      <MemberSignature Language="C#" Value="public Vulkan.Extent2D CurrentExtent;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype Vulkan.Extent2D CurrentExtent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Extent2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the current width and height of the surface, or the special value [eq]#(0xFFFFFFFF, 0xFFFFFFFF)# indicating that the surface size will be determined by the extent of a swapchain targeting the surface.</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentExtent">
+      <MemberSignature Language="C#" Value="public Vulkan.Extent2D CurrentExtent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.Extent2D CurrentExtent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Extent2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the current width and height of the surface, or the special value [eq]#(0xFFFFFFFF, 0xFFFFFFFF)# indicating that the surface size will be determined by the extent of a swapchain targeting the surface.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentTransform">
+      <MemberSignature Language="C#" Value="public Vulkan.SurfaceTransformFlagsKhr CurrentTransform;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype Vulkan.SurfaceTransformFlagsKhr CurrentTransform" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.SurfaceTransformFlagsKhr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a bitmask of elink:VkSurfaceTransformFlagBitsKHR, describing the surface's current transform relative to the presentation engine's natural orientation.</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentTransform">
+      <MemberSignature Language="C#" Value="public Vulkan.SurfaceTransformFlagsKhr CurrentTransform { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.SurfaceTransformFlagsKhr CurrentTransform" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.SurfaceTransformFlagsKhr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a bitmask of elink:VkSurfaceTransformFlagBitsKHR, describing the surface's current transform relative to the presentation engine's natural orientation.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxImageArrayLayers">
+      <MemberSignature Language="C#" Value="public uint MaxImageArrayLayers;" />
+      <MemberSignature Language="ILAsm" Value=".field public unsigned int32 MaxImageArrayLayers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the maximum number of layers swapchain images can: have for a swapchain created for this device and surface.</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxImageArrayLayers">
+      <MemberSignature Language="C#" Value="public uint MaxImageArrayLayers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 MaxImageArrayLayers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the maximum number of layers swapchain images can: have for a swapchain created for this device and surface.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxImageCount">
+      <MemberSignature Language="C#" Value="public uint MaxImageCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public unsigned int32 MaxImageCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the maximum number of images the specified device supports for a swapchain created for the surface. A value of 0 means that there is no limit on the number of images, though there may: be limits related to the total amount of memory used by swapchain images.</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxImageCount">
+      <MemberSignature Language="C#" Value="public uint MaxImageCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 MaxImageCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the maximum number of images the specified device supports for a swapchain created for the surface. A value of 0 means that there is no limit on the number of images, though there may: be limits related to the total amount of memory used by swapchain images.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxImageExtent">
+      <MemberSignature Language="C#" Value="public Vulkan.Extent2D MaxImageExtent;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype Vulkan.Extent2D MaxImageExtent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Extent2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>contains the largest valid swapchain extent for the surface on the specified device.</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxImageExtent">
+      <MemberSignature Language="C#" Value="public Vulkan.Extent2D MaxImageExtent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.Extent2D MaxImageExtent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Extent2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>contains the largest valid swapchain extent for the surface on the specified device.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinImageCount">
+      <MemberSignature Language="C#" Value="public uint MinImageCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public unsigned int32 MinImageCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the minimum number of images the specified device supports for a swapchain created for the surface.</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinImageCount">
+      <MemberSignature Language="C#" Value="public uint MinImageCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 MinImageCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the minimum number of images the specified device supports for a swapchain created for the surface.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinImageExtent">
+      <MemberSignature Language="C#" Value="public Vulkan.Extent2D MinImageExtent;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype Vulkan.Extent2D MinImageExtent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Extent2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>contains the smallest valid swapchain extent for the surface on the specified device.</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinImageExtent">
+      <MemberSignature Language="C#" Value="public Vulkan.Extent2D MinImageExtent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.Extent2D MinImageExtent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Extent2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>contains the smallest valid swapchain extent for the surface on the specified device.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedCompositeAlpha">
+      <MemberSignature Language="C#" Value="public Vulkan.CompositeAlphaFlagsKhr SupportedCompositeAlpha;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype Vulkan.CompositeAlphaFlagsKhr SupportedCompositeAlpha" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.CompositeAlphaFlagsKhr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a bitmask of elink:VkCompositeAlphaFlagBitsKHR, representing the alpha compositing modes supported by the presentation engine for the surface on the specified device. Opaque composition can: be achieved in any alpha compositing mode by either using a swapchain image format that has no alpha component, or by ensuring that all pixels in the swapchain images have an alpha value of 1.0.</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedCompositeAlpha">
+      <MemberSignature Language="C#" Value="public Vulkan.CompositeAlphaFlagsKhr SupportedCompositeAlpha { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.CompositeAlphaFlagsKhr SupportedCompositeAlpha" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.CompositeAlphaFlagsKhr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a bitmask of elink:VkCompositeAlphaFlagBitsKHR, representing the alpha compositing modes supported by the presentation engine for the surface on the specified device. Opaque composition can: be achieved in any alpha compositing mode by either using a swapchain image format that has no alpha component, or by ensuring that all pixels in the swapchain images have an alpha value of 1.0.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedTransforms">
+      <MemberSignature Language="C#" Value="public Vulkan.SurfaceTransformFlagsKhr SupportedTransforms;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype Vulkan.SurfaceTransformFlagsKhr SupportedTransforms" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.SurfaceTransformFlagsKhr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a bitmask of elink:VkSurfaceTransformFlagBitsKHR, describing the presentation transforms supported for the surface on the specified device.</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedTransforms">
+      <MemberSignature Language="C#" Value="public Vulkan.SurfaceTransformFlagsKhr SupportedTransforms { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.SurfaceTransformFlagsKhr SupportedTransforms" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.SurfaceTransformFlagsKhr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a bitmask of elink:VkSurfaceTransformFlagBitsKHR, describing the presentation transforms supported for the surface on the specified device.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedUsageFlags">
+      <MemberSignature Language="C#" Value="public Vulkan.ImageUsageFlags SupportedUsageFlags;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype Vulkan.ImageUsageFlags SupportedUsageFlags" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageUsageFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a bitmask of elink:VkImageUsageFlagBits representing the ways the application can: use the presentable images of a swapchain created for the surface on the specified device. ename:VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT must: be included in the set but implementations may: support additional usages.</summary>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedUsageFlags">
+      <MemberSignature Language="C#" Value="public uint SupportedUsageFlags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 SupportedUsageFlags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a bitmask of elink:VkImageUsageFlagBits representing the ways the application can: use the presentable images of a swapchain created for the surface on the specified device. ename:VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT must: be included in the set but implementations may: support additional usages.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

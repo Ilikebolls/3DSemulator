@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="ImageUsageFlags" FullName="Vulkan.ImageUsageFlags">
+  <TypeSignature Language="C#" Value="public enum ImageUsageFlags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ImageUsageFlags extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Bitmask specifying intended usage of an image</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ColorAttachment">
+      <MemberSignature Language="C#" Value="ColorAttachment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.ImageUsageFlags ColorAttachment = int32(16)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageUsageFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that the image can: be used to create a sname:VkImageView suitable for use as a color or resolve attachment in a sname:VkFramebuffer.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DepthStencilAttachment">
+      <MemberSignature Language="C#" Value="DepthStencilAttachment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.ImageUsageFlags DepthStencilAttachment = int32(32)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageUsageFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that the image can: be used to create a sname:VkImageView suitable for use as a depth/stencil attachment in a sname:VkFramebuffer.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InputAttachment">
+      <MemberSignature Language="C#" Value="InputAttachment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.ImageUsageFlags InputAttachment = int32(128)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageUsageFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that the image can: be used to create a sname:VkImageView suitable for occupying sname:VkDescriptorSet slot of type ename:VK_DESCRIPTOR_TYPE_INPUT_ATTACHMENT; be read from a shader as an input attachment; and be used as an input attachment in a framebuffer.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Sampled">
+      <MemberSignature Language="C#" Value="Sampled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.ImageUsageFlags Sampled = int32(4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageUsageFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that the image can: be used to create a sname:VkImageView suitable for occupying a sname:VkDescriptorSet slot either of type ename:VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE or ename:VK_DESCRIPTOR_TYPE_COMBINED_IMAGE_SAMPLER, and be sampled by a shader.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Storage">
+      <MemberSignature Language="C#" Value="Storage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.ImageUsageFlags Storage = int32(8)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageUsageFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that the image can: be used to create a sname:VkImageView suitable for occupying a sname:VkDescriptorSet slot of type ename:VK_DESCRIPTOR_TYPE_STORAGE_IMAGE.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TransferDst">
+      <MemberSignature Language="C#" Value="TransferDst" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.ImageUsageFlags TransferDst = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageUsageFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that the image can: be used as the destination of a transfer command.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TransferSrc">
+      <MemberSignature Language="C#" Value="TransferSrc" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.ImageUsageFlags TransferSrc = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageUsageFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that the image can: be used as the source of a transfer command.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TransientAttachment">
+      <MemberSignature Language="C#" Value="TransientAttachment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.ImageUsageFlags TransientAttachment = int32(64)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageUsageFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates that the memory bound to this image will have been allocated with the ename:VK_MEMORY_PROPERTY_LAZILY_ALLOCATED_BIT (see &lt;&lt;memory&gt;&gt; for more detail). This bit can: be set for any image that can: be used to create a sname:VkImageView suitable for use as a color, resolve, depth/stencil, or input attachment.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

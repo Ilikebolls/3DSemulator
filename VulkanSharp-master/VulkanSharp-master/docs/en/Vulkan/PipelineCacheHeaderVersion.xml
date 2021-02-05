@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="PipelineCacheHeaderVersion" FullName="Vulkan.PipelineCacheHeaderVersion">
+  <TypeSignature Language="C#" Value="public enum PipelineCacheHeaderVersion" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PipelineCacheHeaderVersion extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Encode pipeline cache version</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="One">
+      <MemberSignature Language="C#" Value="One" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Vulkan.PipelineCacheHeaderVersion One = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PipelineCacheHeaderVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

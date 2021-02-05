@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Type Name="SwapchainCreateInfoKhr" FullName="Vulkan.SwapchainCreateInfoKhr">
+  <TypeSignature Language="C#" Value="public class SwapchainCreateInfoKhr : Vulkan.MarshalledObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SwapchainCreateInfoKhr extends Vulkan.MarshalledObject" />
+  <AssemblyInfo>
+    <AssemblyName>Vulkan</AssemblyName>
+    <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+    <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+    <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+    <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+    <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Vulkan.MarshalledObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>- Structure specifying parameters of a newly created swapchain object</summary>
+    <remarks></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SwapchainCreateInfoKhr ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clipped">
+      <MemberSignature Language="C#" Value="public bool Clipped { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Clipped" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>indicates whether the Vulkan implementation is allowed to discard rendering operations that affect regions of the surface which are not visible. ** If set to ename:VK_TRUE, the presentable images associated with the swapchain may: not own all of their pixels. Pixels in the presentable images that correspond to regions of the target surface obscured by another window on the desktop or subject to some other clipping mechanism will have undefined content when read back. Pixel shaders may: not execute for these pixels, and thus any side affects they would have had will not occur. ** If set to ename:VK_FALSE, presentable images associated with the swapchain will own all the pixels they contain. Setting this value to ename:VK_TRUE does not guarantee any clipping will occur, but allows more optimal presentation methods to be used on some platforms.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompositeAlpha">
+      <MemberSignature Language="C#" Value="public Vulkan.CompositeAlphaFlagsKhr CompositeAlpha { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.CompositeAlphaFlagsKhr CompositeAlpha" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.CompositeAlphaFlagsKhr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be one of the bits present in the pname:supportedCompositeAlpha member of the sname:VkSurfaceCapabilitiesKHR structure returned by fname:vkGetPhysicalDeviceSurfaceCapabilitiesKHR for the surface</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public override void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flags">
+      <MemberSignature Language="C#" Value="public uint Flags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 Flags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is reserved for future use, and must: be zero.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageArrayLayers">
+      <MemberSignature Language="C#" Value="public uint ImageArrayLayers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 ImageArrayLayers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be greater than `0` and less than or equal to the pname:maxImageArrayLayers member of the sname:VkSurfaceCapabilitiesKHR structure returned by fname:vkGetPhysicalDeviceSurfaceCapabilitiesKHR for the surface</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageColorSpace">
+      <MemberSignature Language="C#" Value="public Vulkan.ColorSpaceKhr ImageColorSpace { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.ColorSpaceKhr ImageColorSpace" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ColorSpaceKhr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is a slink:VkColorSpaceKHR that is valid for swapchains on the specified surface.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageExtent">
+      <MemberSignature Language="C#" Value="public Vulkan.Extent2D ImageExtent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.Extent2D ImageExtent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Extent2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be between pname:minImageExtent and pname:maxImageExtent, inclusive, where pname:minImageExtent and pname:maxImageExtent are members of the sname:VkSurfaceCapabilitiesKHR structure returned by fname:vkGetPhysicalDeviceSurfaceCapabilitiesKHR for the surface</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageFormat">
+      <MemberSignature Language="C#" Value="public Vulkan.Format ImageFormat { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.Format ImageFormat" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.Format</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>and pname:imageColorSpace must: match the pname:format and pname:colorSpace members, respectively, of one of the sname:VkSurfaceFormatKHR structures returned by fname:vkGetPhysicalDeviceSurfaceFormatsKHR for the surface</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageSharingMode">
+      <MemberSignature Language="C#" Value="public Vulkan.SharingMode ImageSharingMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.SharingMode ImageSharingMode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.SharingMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the sharing mode used for the images of the swapchain.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageUsage">
+      <MemberSignature Language="C#" Value="public Vulkan.ImageUsageFlags ImageUsage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.ImageUsageFlags ImageUsage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.ImageUsageFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be a subset of the supported usage flags present in the pname:supportedUsageFlags member of the sname:VkSurfaceCapabilitiesKHR structure returned by fname:vkGetPhysicalDeviceSurfaceCapabilitiesKHR for the surface * If pname:imageSharingMode is ename:VK_SHARING_MODE_CONCURRENT, pname:pQueueFamilyIndices must: be a pointer to an array of pname:queueFamilyIndexCount basetype:uint32_t values * If pname:imageSharingMode is ename:VK_SHARING_MODE_CONCURRENT, pname:queueFamilyIndexCount must: be greater than `1`</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinImageCount">
+      <MemberSignature Language="C#" Value="public uint MinImageCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 MinImageCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be less than or equal to the value returned in the pname:maxImageCount member of the sname:VkSurfaceCapabilitiesKHR structure returned by fname:vkGetPhysicalDeviceSurfaceCapabilitiesKHR for the surface if the returned pname:maxImageCount is not zero</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldSwapchain">
+      <MemberSignature Language="C#" Value="public Vulkan.SwapchainKhr OldSwapchain { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.SwapchainKhr OldSwapchain" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.SwapchainKhr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresentMode">
+      <MemberSignature Language="C#" Value="public Vulkan.PresentModeKhr PresentMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.PresentModeKhr PresentMode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.PresentModeKhr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be one of the ename:VkPresentModeKHR values returned by fname:vkGetPhysicalDeviceSurfacePresentModesKHR for the surface ****</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreTransform">
+      <MemberSignature Language="C#" Value="public Vulkan.SurfaceTransformFlagsKhr PreTransform { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Vulkan.SurfaceTransformFlagsKhr PreTransform" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.SurfaceTransformFlagsKhr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be one of the bits present in the pname:supportedTransforms member of the sname:VkSurfaceCapabilitiesKHR structure returned by fname:vkGetPhysicalDeviceSurfaceCapabilitiesKHR for the surface</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueFamilyIndexCount">
+      <MemberSignature Language="C#" Value="public uint QueueFamilyIndexCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 QueueFamilyIndexCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is the number of queue families having access to the images of the swapchain in case pname:imageSharingMode is ename:VK_SHARING_MODE_CONCURRENT.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueFamilyIndices">
+      <MemberSignature Language="C#" Value="public uint[] QueueFamilyIndices { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32[] QueueFamilyIndices" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>is an array of queue family indices having access to the images of the swapchain in case pname:imageSharingMode is ename:VK_SHARING_MODE_CONCURRENT.</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Surface">
+      <MemberSignature Language="C#" Value="public Vulkan.SurfaceKhr Surface { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Vulkan.SurfaceKhr Surface" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.5950.20892</AssemblyVersion>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+        <AssemblyVersion>0.0.6134.41045</AssemblyVersion>
+        <AssemblyVersion>0.0.6142.19338</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Vulkan.SurfaceKhr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>must: be a surface that is supported by the device as determined using fname:vkGetPhysicalDeviceSurfaceSupportKHR</summary>
+        <value>To be added.</value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualDispose">
+      <MemberSignature Language="C#" Value="public override void VirtualDispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void VirtualDispose() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.6105.39043</AssemblyVersion>
+        <AssemblyVersion>0.0.6106.39464</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
